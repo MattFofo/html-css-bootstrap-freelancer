@@ -7,6 +7,18 @@
   
 
 
+/* utility */
+
+
+.text_align_center {
+    text-align: center;
+}
+
+.text_align_justify {
+    text-align: justify;
+}
+
+
 
 /* header */
 
@@ -37,12 +49,10 @@
     background-color: var(--section1-color);
 }
 
-.row [class*="col-"] {
-    text-align: center;
-}
 
 
-/* seconda sezione */
+
+/* section 2 */
 
 
 .row.prova div{
@@ -50,3 +60,8 @@
     background-color: rgb(151, 127, 173);
     border: 1px solid firebrick;
 }
+
+
+/* section 3 */
+
+
