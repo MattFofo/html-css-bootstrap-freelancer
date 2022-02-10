@@ -26,8 +26,16 @@
     display: flex;
 }
 
-.height_50px {
+.height_150px {
     height: 150px;
+}
+
+.btn_my {
+    background-color: aqua;
+    padding: 1em;
+    height: 30px;
+    width: 50px;
+
 }
 
 
