@@ -40,3 +40,13 @@
 .row [class*="col-"] {
     text-align: center;
 }
+
+
+/* seconda sezione */
+
+
+.row.prova div{
+    height: 200px;
+    background-color: rgb(151, 127, 173);
+    border: 1px solid firebrick;
+}
