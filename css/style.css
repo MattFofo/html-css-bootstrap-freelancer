@@ -18,6 +18,17 @@
     text-align: justify;
 }
 
+.border_bottom {
+    border-bottom: 1px solid gray;
+}
+
+.flex {
+    display: flex;
+}
+
+.height_50px {
+    height: 150px;
+}
 
 
 /* header */
