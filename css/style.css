@@ -2,8 +2,8 @@
     --header-color: rgb(135, 130, 206);
     --header-height: 50px;
     --section1-height: 500px;
-    --footer-color: darkblue;
-    --bs-gradient: rgb(15, 163, 131);
+    --footer-color: rgb(58, 84, 109);
+    --bs-gradient: rgb(26, 188, 156);
 }
 
 
@@ -105,4 +105,9 @@
 
 .footer_color {
     background-color: var(--footer-color);
+}
+
+.footer_icon {
+    width: 45px;
+    height: 45px;
 }
