@@ -77,3 +77,15 @@
 /* section 3 */
 
 
+
+
+
+/* section 4 */
+
+.border_bottom {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+    border-bottom: 1px solid grey;
+}
