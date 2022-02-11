@@ -8,6 +8,8 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
         <link rel="stylesheet" href="css/style.css">
         
     </head>
@@ -16,109 +18,216 @@
         
         <!-- header -->
 
-        <header class="container-fluid header_color header_height">
+        <header class="header_color py-3">
 
             <div class="container">
 
                 <div class="row align-items-center header_height">
-                    <div class="col">START BOOTSTRAP</div>
-                    <div class="col-1 menu_burger"></div>
+
+                    <div class="col-6">START BOOTSTRAP</div>
+
+                    <div class="col-6 text-end">
+
+                        <div class="menu_burger d-md-none"><i class="fa-solid fa-bars"></i></div>
+
+                        <nav class="d-none d-md-block">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">primo</li>
+                                <li class="list-inline-item">secondo</li>
+                                <li class="list-inline-item">terzo</li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+
                 </div>
 
             </div>
         </header>
 
+
         <!-- prima sezione -->
 
-        <section class="container-fluid section1_height section1_color">
-            <div class="row justify-content-center">
-                <!-- <div class="row justify-content-center"> -->
-                    <div class="col-5 text_align_center"><img src="https://picsum.photos/200/200" alt=""></div>
-                <!-- </div> -->
-    
-                <!-- <div class="row justify-content-center"> -->
-                    <div class="col-12 text_align_center">START BOOTSTRAP</div>
-                <!-- </div> -->
-    
-                <!-- <div class="row justify-content-center"> -->
-                    <div class="col-5 text_align_center">---------- stella ---------</div>
-                <!-- </div> -->
-    
-                <!-- <div class="row justify-content-center"> -->
-                    <div class="col-10 text_align_center">GRAPHIC - WEB DESIGNER - ILLUSTRATOR</div>
-                <!-- </div> -->
-            </div>
-            
-        </section>
+        <section class="jumbotron section1_color py-3">
 
+                <div class="container">
 
-        <!-- seconda sezione "portfolio" -->
+                    <div class="row">
 
-        <section class="container-fluid">
+                        <div class="col text-center">
 
-            <h2 class="row justify-content-center">Portfolio</h2>
+                            <img src="https://picsum.photos/200/200" alt="">
+                            <h1>START BOOTSTRAP</h1>
+                            <div>---------- stella ---------</div>
+                            <p>GRAPHIC - WEB DESIGNER - ILLUSTRATOR</p>
 
-            <div class="row justify-content-center">----------- stella -----------</div>
-
-            
-            <div class="row justify-content-center prova gx-sm-5">
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-                <div class="col-11 col-sm-5 col-md-4 gy-4"></div>
-            </div>
+                        </div>
+                    </div>
+                </div>
 
         </section>
 
-        <section class="row justify-content-center section1_color section1_height">
 
-            <h2 class="col-8 text_align_center">ABOUT</h2>
+        <!-- section 2 "portfolio" -->
 
-            <div class="col-8 text_align_center">----------stella-----------</div>
+        <section class="py-3">
 
-            <p class="col-8 col-sm-6 text_align_justify">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora accusantium doloremque, praesentium soluta enim facere eos, dolores provident alias sit mollitia inventore debitis. Fugiat dolorem quisquam pariatur recusandae provident.
-            </p>
+            <div class="container-fluid">
 
-            <p class="col-8 col-sm-6 text_align_justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia atque, odio eaque quidem veniam consequuntur quae quasi voluptatibus quibusdam voluptas omnis eos praesentium obcaecati doloribus! Neque quos similique quidem.
-            </p>
+                <div class="row">
 
-            <div class="col-12 text_align_center">Download</div>
+                    <h2 class="col-12 text-center">Portfolio</h2>
+                    <div class="col-12 text-center">----------- stella -----------</div>
+    
+                </div>
+    
+                
+                
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center prova g-3">
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"></div>
+                    </div>
+                </div>
 
+            </div>
+
+            
+
+        </section>
+
+
+        <!-- section 3 "about" -->
+
+        <section class="py-3 section1_color">
+
+            <div class="container">
+
+                <div class="row justify-content-center section1_color section1_height overflow-auto">
+
+                    <h2 class="col-8 text-center">ABOUT</h2>
+    
+                    <div class="col-8 text-center">----------stella-----------</div>
+    
+                    <p class="col-8 col-sm-6 text_align_justify">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora accusantium doloremque, praesentium soluta enim facere eos, dolores provident alias sit mollitia inventore debitis. Fugiat dolorem quisquam pariatur recusandae provident.
+                    </p>
+    
+                    <p class="col-8 col-sm-6 text_align_justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia atque, odio eaque quidem veniam consequuntur quae quasi voluptatibus quibusdam voluptas omnis eos praesentium obcaecati doloribus! Neque quos similique quidem.
+                    </p>
+    
+                    <div class="col-12 text-center">Download</div>
+    
+                </div>
+            </div>
+            
+            
         </section>
 
         <!-- section 4 "contact me" -->
 
-        <section class="row justify-content-center section1_height">
+        <section class="py-3">
 
-            <h2 class="col-8 text_align_center">CONTACT ME</h2>
+            <div class="container">
 
-            <div class="col-8 text_align_center">---------stella----------</div>
-
-            <div class="col-8 border_bottom flex align-items-center">Name</div>
-            <div class="col-8 border_bottom flex align-items-center">Email Address</div>
-            <div class="col-8 border_bottom flex align-items-center">Phone Number</div>
-            <div class="col-8 border_bottom flex height_150px gy-3">Message</div>
-
-            <div class="row">
-
-                <div class="col-2 offset-2 flex justify-content-center align-items-center btn_my">send</div>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2>CONTACT ME</h2>
+                    </div>
+                    <div class="col-12">
+                        ----------stella-----------
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+    
+                    <div class="col-8 col-sm-12">
+    
+                        <form>
+                    
+                            <div class="mb-3">
+                              <input type="text" class="form-control px-0 border_bottom" placeholder="First name" aria-label="First name">
+                            </div>
+          
+                            <div class="mb-3">
+                              <input type="email" class="form-control px-0" placeholder="Email" aria-label="Email">
+                            </div>
+          
+                            <div class="mb-3">
+                              <input type="text" class="form-control px-0" placeholder="Phone Number" aria-label="Phone Number">
+                            </div>
+          
+                            <div class="mb-3">
+                          
+                              <textarea class="form-control px-0" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+          
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+    
+                    </div>
+    
+                    
+    
+                </div>
+    
 
             </div>
-
-            
         </section>
+
 
 
         <!-- footer -->
 
-        <section>
+        <section class="bg-dark text-white py-3">
+
+            <div class="container">
+
+                <div class="row text-center">
+
+                    <div class="col-12 col-sm-3 col-md-4">
+                        <h3>Location</h3>
+                        <p>aoihoia hòoighado òfhbòa hfbvò</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <h3>around the web</h3>
+                        <p>icona - icona - icona - icona</p>
+                    </div>
+
+                    <div class="col-12 col-sm-3 col-md-4">
+                        <h3>about freelancer</h3>
+                        <p>ailgvli asdgbvlbv uigbaliu gbvlak sdbvalurgvl</p>
+                    </div>
+                    
+                </div>
+
+                <div class="row text-center">
+
+                    <div class="col-12">copyright blablabvlablabalvalvlavl</div>
+
+                </div>
+
+
+
+            </div>
             
         </section>
-
 
 
     </body>
