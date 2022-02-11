@@ -5,7 +5,8 @@
     --section1-color: aqua;
     --footer-color: darkblue;
 }
-  
+
+
 
 
 /* utility */
@@ -34,6 +35,12 @@
     width: 50px;
 }
 
+
+.link_my {
+    text-decoration: inherit;
+    color: inherit;
+
+}
 
 /* header */
 
