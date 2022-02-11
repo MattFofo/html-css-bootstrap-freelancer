@@ -67,10 +67,10 @@
 /* section 2 */
 
 
-.row.prova div{
+
+.card {
     height: 200px;
     background-color: rgb(151, 127, 173);
-    border: 1px solid firebrick;
 }
 
 
