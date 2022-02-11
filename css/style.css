@@ -2,14 +2,15 @@
     --header-color: rgb(135, 130, 206);
     --header-height: 50px;
     --section1-height: 500px;
-    --section1-color: aqua;
     --footer-color: darkblue;
+    --bs-gradient: rgb(15, 163, 131);
 }
 
 
 
 
 /* utility */
+
 
 
 .text_align_justify {
@@ -61,10 +62,20 @@
 }
 
 .section1_color {
-    background-color: var(--section1-color);
+    background-color: var(--bs-gradient);
 }
 
+.avatar_img {
+    width: 350px;
+}
 
+@media screen and (min-width: 576px) {
+
+    .avatar_img {
+        width: 200px;
+    }
+    
+}
 
 
 /* section 2 */
