@@ -3,6 +3,7 @@
     --header-height: 50px;
     --section1-height: 500px;
     --section1-color: aqua;
+    --footer-color: darkblue;
 }
   
 
@@ -88,4 +89,11 @@
     border-left: none;
 
     border-bottom: 1px solid grey;
+}
+
+
+/* footer */
+
+.footer_color {
+    background-color: var(--footer-color);
 }
