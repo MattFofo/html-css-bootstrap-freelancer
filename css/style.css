@@ -10,10 +10,6 @@
 /* utility */
 
 
-.text_align_center {
-    text-align: center;
-}
-
 .text_align_justify {
     text-align: justify;
 }
@@ -45,13 +41,11 @@
     background-color: var(--header-color);
 }
 
-.header_height {
-    height: var(--header-height);
-}
+
 
 .menu_burger {
-      width: 25px;
-      height: 25px;
+      /* width: 25px;
+      height: 25px; */
       background-color: gray;
 }
 
